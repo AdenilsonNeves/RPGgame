@@ -1,0 +1,10 @@
+public abstract class Monster extends Creature {
+
+    public Monster(String name, String race, int level, int life, int spell, int strenght, int agility, int skill, int intelligence, int charisma) {
+        super(name, race, level, life, spell, strenght, agility, skill, intelligence, charisma);
+    }
+
+    public void Rest() {
+
+    }
+}
